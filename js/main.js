@@ -25,7 +25,7 @@ function addProduct(){
   products.push(product);
   localStorage.setItem('products',JSON.stringify(products));
   display();
-  //clearForm();
+  clearForm();
 }
 
 function display(){
